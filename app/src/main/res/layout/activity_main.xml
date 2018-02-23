@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="20dp" >
+
+    <TextView
+        android:id="@+id/titleRSSI"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="WIFI RSSI"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textRSSI"
+        android:layout_width="300dp"
+        android:layout_height="392dp"
+        android:layout_weight="0.48"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center|top"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/CellNumber"
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Cell" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="vertical"></LinearLayout>
+
+        <Button
+            android:id="@+id/buttonTrain"
+            android:layout_width="19dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="Train" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="vertical"></LinearLayout>
+
+        <Button
+            android:id="@+id/buttonLocate"
+            android:layout_width="31dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="Locate" />
+    </LinearLayout>
+</LinearLayout>
